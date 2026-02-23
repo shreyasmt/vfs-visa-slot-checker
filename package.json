@@ -1,0 +1,23 @@
+{
+  "name": "vfs-visa-slot-checker",
+  "version": "1.0.0",
+  "description": "Automated visa slot checker for VFS Global France visa appointments",
+  "main": "visa_checker.js",
+  "scripts": {
+    "start": "node visa_checker.js",
+    "setup": "node setup_gmail.js"
+  },
+  "keywords": [
+    "visa",
+    "vfs",
+    "slot",
+    "checker",
+    "schengen"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "googleapis": "^128.0.0"
+  }
+}

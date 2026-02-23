@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Credentials and tokens
+gmail-credentials.json
+gmail-token.json
+
+# Environment variables
+.env
+
+# Results
+slot-results.json
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
