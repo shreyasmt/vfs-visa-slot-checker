@@ -5,6 +5,8 @@
   "main": "visa_checker.js",
   "scripts": {
     "start": "node visa_checker.js",
+    "start:manual": "node visa_checker_manual.js",
+    "start:imap": "node visa_checker_imap.js",
     "setup": "node setup_gmail.js"
   },
   "keywords": [
@@ -18,6 +20,8 @@
   "license": "MIT",
   "dependencies": {
     "puppeteer": "^21.0.0",
-    "googleapis": "^128.0.0"
+    "googleapis": "^128.0.0",
+    "imap": "^0.8.19",
+    "mailparser": "^3.6.5"
   }
 }
